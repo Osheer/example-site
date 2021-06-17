@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+    color: white;
+    background-color: #212121;
+    padding: 0 45px;
+    display: flex;
+}
+.about {
+    background-color: #302e2a;
+    color: white;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+}
+.about-inner {
+    max-width: 750px;
+}
+.desc{
+    padding-top: 80px;
+    font-size: 1.18rem;
+    line-height: 1.6;
+}
+.about-h1{
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+.myPic {
+    float: left;
+    max-width: 25%;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.posts {
+    background-color: white;
+    padding: 60px 45px;
+}
+.posts-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 45px;
+    row-gap: 45px;
+}
+.button{
+    background-color: #212121;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.18rem;
+    display: inline-block;
+}
+.writing{
+    background-color: #ebe4da;
+    justify-content: center;
+    padding: 60px 45px; 
+}
+.right {
+    text-align: right;
+    float: right;
+    padding: 0px 50px;
+    margin-bottom: 100px;
+}
